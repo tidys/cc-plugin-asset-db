@@ -32,6 +32,7 @@ const manifest: CocosPluginManifest = {
   i18n_en: "./src/i18n/en.ts",
   i18n_zh: "./src/i18n/zh.ts",
   asset_db_v3: { path: "./code-v3" },
+  asset_db_v2: { path: "./code-v2" },
 };
 // 这里的options变量名暂时不支持修改，发布时会进行必要的修改
 const options: CocosPluginOptions = {
